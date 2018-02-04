@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adaloglu.happynewyear.MainActivity">
+
+
+    <ImageView
+    android:id="@+id/ImageView2"
+    android:contentDescription="@string/happy_holidays"
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/fireworks"
+    android:layout_alignParentTop="true"
+    android:layout_below="@id/TextView"/>
+
+
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy_holidays"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="40dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"/>
+
+
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:contentDescription="@string/Imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/happyholidays"/>
+
+
+<TextView
+    android:id="@+id/TextView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/wish_have_a_good_year_from_anil"
+    android:textColor="@android:color/white"
+    android:textSize="26sp"
+    android:layout_alignBottom="@id/ImageView2"
+    android:layout_margin="15dp"
+    android:textStyle="bold"/>
+
+
+
+
+
+
+</RelativeLayout>
